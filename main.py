@@ -23,3 +23,14 @@ sentence = input("Enter any sentence: ")
 find_sym = input("Enter the symbol you want to find: ")
 
 print(sentence.count(find_sym))
+
+# 3
+
+sentence = input("Enter sentence: ")
+word_original = input("Enter the word you want to change: ")
+word_replace = input("Enter the word you want to replace the original with: ")
+
+sentence = sentence.replace(word_original, word_replace)
+print(sentence)
+
+
