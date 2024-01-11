@@ -16,3 +16,10 @@ for symbol in sentence:
         number_q += 1
 print(f"letters in text: {letter_q}")
 print(f"numbers in text: {number_q}")
+
+# 2
+
+sentence = input("Enter any sentence: ")
+find_sym = input("Enter the symbol you want to find: ")
+
+print(sentence.count(find_sym))
