@@ -33,4 +33,17 @@ word_replace = input("Enter the word you want to replace the original with: ")
 sentence = sentence.replace(word_original, word_replace)
 print(sentence)
 
+# 4
 
+text = """Python is a programming language that lets you work more quickly and integrate your systems more effectively.
+You can learn to use Python and see almost immediate gains in productivity and lower maintenance costs."""
+
+print(text[2])     # if we are talking about the third in the text, and not in the output program
+print(text[-2])
+print(text[0: 5])
+print(text[0: -2])
+print(text[1:: 2])
+print(text[2:: 2])
+print(text[:: -1])
+print(text[::-2])
+print(len(text))
